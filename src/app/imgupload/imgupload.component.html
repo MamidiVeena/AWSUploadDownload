@@ -1,9 +1,4 @@
-<!-- <div class="form-group">
-    <label for="file">Choose File: &nbsp;</label> 
-    <input type="file"
-           id="file"
-           (change)="handleFileInput($event.target.files)">
-</div> -->
+<html>
 
 <label class="btn btn-default">
     <input type="file" (change)="selectFile($event)">
@@ -18,8 +13,10 @@
 
 <ul style="list-style-type: none;">
     <li *ngFor ="let file of files">
-        <img [src]= "file.url">
+        <img [src]= "file.url" alt="Images" style="width:200px;height:120px;"/>
+        <br/>
     </li>
 </ul>
 
+</html>
 <!-- {{fileNamesList}} -->
