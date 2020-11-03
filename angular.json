@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "crossover"
+    }
+  },
+  "defaultProject": "crossover",
+  "cli": {
+    "analytics": "1a1961f6-ca84-4c8a-98e9-400bb3478528"
+  }
 }

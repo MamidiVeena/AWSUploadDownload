@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'crossover';
+  title = 'AWS Image Upload Project';
   description = 'Image Upload and Search';
 }

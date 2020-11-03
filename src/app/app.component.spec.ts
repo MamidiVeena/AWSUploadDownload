@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'crossover'`, () => {
+  it(`should have as title 'AWS Image Upload Project'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('crossover');
+    expect(app.title).toEqual('AWS Image Upload Project');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('crossover app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('AWS Image Upload Project is running!');
   });
 });
