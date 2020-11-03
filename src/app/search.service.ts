@@ -28,8 +28,8 @@ export class SearchService {
       observer => {
         let bucket = new S3(
           {
-            accessKeyId: 'AKIAIHVSGUKR2WIXVDTA',
-            secretAccessKey: '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',
+            accessKeyId: 'AKIAJK7ZEEHMSD3RMIKQ',
+            secretAccessKey: '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',
             region: 'ap-south-1'
           }
         );
