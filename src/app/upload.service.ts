@@ -12,8 +12,8 @@ export class UploadService {
 
   bucket = new S3(
     {
-      accessKeyId: 'AKIAIHVSGUKR2WIXVDTA',
-      secretAccessKey: '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',
+      accessKeyId: 'AKIAICD5Z4QL2IH5NFHA',
+      secretAccessKey: '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',
       region: 'ap-south-1'
     }
   );
